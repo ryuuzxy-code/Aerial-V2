@@ -1,2 +1,2 @@
 # Base TopUp
-Base ini di kaitkan oleh api dan key sign vip-reseller.co.id
+Base ini di kaitkan oleh api dan key sign https://vip-reseller.co.id
