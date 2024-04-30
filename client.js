@@ -31,10 +31,11 @@ const { isAfk, cekafk, addafk } = require('./lib/offline');
 
 global.Func = require('./lib/myfunc.js')
 let mode = true // Mode publik, true yang berarti public, false self
-let base = 'https://vip-reseller.co.id/api/profile'
-let key = 'GDeWz6grhjMrm1jZxLT0mLiYAVcp9JpN413NDUaCdP5lXEaEC4QG6GlRkyhOWh7d'
-let id = 'Di9f5YY5'
-let sign = md5(id + key)
+
+let base = 'https://vip-reseller.co.id/'
+let key = '' // isi apikey vip-reseller 
+let id = '' // isi id vip-reseller 
+let sign = md5(id + key) 
 
 module.exports = async (conn, m) => {
 try {
